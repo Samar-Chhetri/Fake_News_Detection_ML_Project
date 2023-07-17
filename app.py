@@ -57,9 +57,9 @@ if st.button('Predict'):
     result = model.predict(vector_input)[0]
 
     if result == 1:
-        st.header("Result :  The News looks SPAM")
+        st.header("Result :  The News looks REAL")
     else:
-        st.header("Result :  The News does NOT look SPAM")
+        st.header("Result :  The News does NOT look REAL")
 
 
 
